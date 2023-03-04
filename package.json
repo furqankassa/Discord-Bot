@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "start": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.18.2",
+    "index.js": "^0.0.3",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4",
+    "weather-js": "^2.0.0",
+    "weather.js": "^0.1.0"
+  },
+  "keywords": [],
+  "description": ""
+}
